@@ -1,14 +1,9 @@
-/* Letterboxd Transparency */
-html, body, nav, header, div:not(.backdrop-container):not(.backdrop-wrapper):not(.backdropimage):not(.backdropmask) {
-  background-color: transparent !important;
-  background: none !important;
+/* Letterboxd Transparency and Dark Mode */
+html, body, nav, header, div:not(.backdrop-container):not(.backdrop-wrapper):not(.backdropimage):not(.backdropmask),
+:root {
+  background: transparent !important;
   border: none !important;
   box-shadow: none !important;
-}
-
-/* Letterboxd Dark Mode */
-:root {
-  --background-color: transparent !important;
 }
 
 /* Hide Footer */
@@ -21,16 +16,9 @@ header {
   position: relative !important;
 }
 
-/* Ensure Images are Visible */
-img {
+/* Ensure Images and Backdrop Elements are Visible */
+img, div.backdrop-container, div.backdrop-wrapper, div.backdropimage, div.backdropmask {
   display: block !important;
-  background: none !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Ensure Backdrop Container and Child Elements are Visible */
-div.backdrop-container, div.backdrop-wrapper, div.backdropimage, div.backdropmask {
   background: initial !important;
   border: initial !important;
   box-shadow: initial !important;
