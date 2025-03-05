@@ -29,6 +29,16 @@
     "accounts.google.com.css": {
       "gacc-transparency": "html, body, .S7xv8{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
     },
+    "aescripts.com.css": {
+      "aescripts-transparency": "html, body, nav, header, .main, .main-container, #browse-main-categories, .top-header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "aescripts-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "aescripts-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "aigei.com.css": {
+      "aigei-transparency": "html, body, nav, header, .main-top-nav, .viewport_container, .comp_index_top_calendar_container, .comp_index_top_work_container, .comp_index_top_copyright_container, .comp_container{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "aigei-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "aigei-no footer": "footer{\n  display: none !important;\n}"
+    },
     "aistudio.google.com.css": {
       "aistd-transparecy": ":root{\n    --color-surface-container-lowest: #00000000 !important;\n    --color-sidebars-background: #00000000 !important;\n  }\n  \n  .makersuite-layout, .layout-navbar, select-header, .navbar-header, .router-outlet-wrapper, .nav-toggle-wrapper, .chunk-editor-main, ms-run-settings, .footer, .turn-footer[_ngcontent-ng-c2950371965] > [_ngcontent-ng-c2950371965], .turn-footer[_ngcontent-ng-c2950371965]{\n    background-color: #00000000 !important;\n  }",
       "aistd-hide disclaimer": "div.disclaimer-container.ng-tns-c1318864088-1.ng-star-inserted{\n    display: none !important;\n  }"
@@ -73,6 +83,11 @@
       "appinn-transparency": "html, body, nav, header, [role=\"navigation\"]{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "appinn-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
       "appinn-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "artbook.top.css": {
+      "artbook-transparency": "html, body, nav, body:not(:has(.actGotop[style=\"display: block;\"])) header, #home, .opus_list, .item_work{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "artbook-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "artbook-no footer": "footer{\n  display: none !important;\n}"
     },
     "awwwards.com.css": {
       "awwwards-transparency": "html, body, nav, header, .content-header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -130,6 +145,11 @@
     "canva.com.css": {
       "canva-transparency": "html, body, .EyQHyw, .fZgOqw, .eZq8Ig::before, .eZq8Ig.ocGgIA::after, ._oWbbw::after, ._orzOA::after, .gpRQSw, .sfOjmQ, .fLKksQ, .xzANJg, .OFiy3Q, .TYxWRA, .eZq8Ig.JwseWQ .fZgOqw::before, .fZgOqw{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "canva-no thanks": ".UmIUVw, .GBjf5Q{\n  display: none;\n}"
+    },
+    "cgown.com.css": {
+      "cgown-transparency": "html, body, nav, header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "cgown-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "cgown-no footer": "footer{\n  display: none !important;\n}"
     },
     "chat.deepseek.com.css": {
       "deepseek-transparecy": "body[data-ds-dark-theme] {\n  --dsr-bg: transparent !important;\n  --dsr-side-bg: transparent !important;\n}\n\n.b480065b {\n  background: none !important;\n}",
@@ -193,6 +213,11 @@
       "mozilla-no footer": "footer, .article-footer{\n  display: none !important;\n}",
       "mozilla-non sticky": ".sticky-header-container{\n  position: relative !important;\n}"
     },
+    "dgtle.com.css": {
+      "transparency": "html, body, nav, header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n  display: none !important;\n}"
+    },
     "discord.com.css": {
       "discord-transparecy": ":root {\n  --background-secondary: #00000000 !important;\n  --background-primary: #00000000 !important;\n  --background-tertiary: #00000000 !important;\n  --home-background: #00000000 !important;\n  --bg-base-primary: #00000000 !important;\n}\n\n.theme-light,\n.theme-dark {\n  --__header-bar-background: #00000000 !important;\n  --shadow-border-filter: #00000000 !important;\n  --border-faint: #00000000 !important;\n  --border-strong: #00000000 !important;\n  --background-secondary-alt: #00000000 !important;\n}\n\n.callContainer_cb9592 {\n  background: #00000000 !important;\n}\n\n.floating__01ae2 {\n  background-color: var(\n    --panel-bg\n  ) !important;\n}",
       "discord-other changes": "img.bannerImg_f37cb1 {\n  border-radius: 0 0 1em 1em !important;\n}",
@@ -225,6 +250,11 @@
       "eco-no sections": ".indexpage section, .forest-section, .wave-separator, .instant-answer__wave{\n  display: none !important;\n}",
       "eco-hover": ".notifications, .main-header__nav{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}",
       "eco-no thanks": ".main-header__install-cta{\n  display: none !important;\n}"
+    },
+    "example.com.css": {
+      "ex-forced transparency": "html, body, nav, #nav, .nav, header, #header, .header, app, #app, .app{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "ex-forced darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "ex-forced no footer": "footer, #footer, .footer{\n  display: none !important;\n}"
     },
     "facebook.com.css": {
       "fb-transparecy": ":root {\n  --web-wash: #00000000 !important;\n  --nav-bar-background: #00000000 !important;\n}\n\nbody,\n#mount_0_0_u1\n  > div:nth-child(1)\n  > div:nth-child(1)\n  > div:nth-child(1)\n  > div:nth-child(3) {\n  background-color: #00000000 !important;\n}",
@@ -286,6 +316,11 @@
       "gh-hover": ".feed-left-sidebar, .feed-right-sidebar{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}",
       "gh-border mods": "table, .eIKYQa, div.border-bottom, td{\n  border: none !important;\n}\n\n.dJnomT,.jPdcfu, .gOHzTT, .eBevHz, .Box-header, #repos-sticky-header > div, .jbBkdO{\n  border-radius: 0.5em !important;\n  overflow: hidden;\n}",
       "gh-overlay fixes": "modal-dialog .search-suggestions,details-dialog.Box, .Box-body{\n  background-color: var(--bgColor-inset) !important;\n  border-radius: 1em !important;\n}"
+    },
+    "gndown.com.css": {
+      "transparency": "html, body, nav,body:not(.nav-fixed) header, .excerpts-title, .excerpt, .widget-nav, .widget{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n  display: none !important;\n}"
     },
     "google.com.css": {
       "google-transparecy": "html,\nbody,\ndiv,\nsection,\narticle,\nheader,\nfooter,\nmain,\naside,\nnav,\nspan,\nform,\ninput,\nbutton,\ntable,\ntbody,\ntr,\ntd {\n  background: transparent !important;\n}\n\n.aajZCb {\n  background-color: var(--uv-styles-color-surface) !important;\n}\n\ndiv.sfbg {\n  background-color: var(--darkreader-border-ffffff) !important;\n}\n\n:root {\n  --darkreader-background-ffffff: transparent !important;\n}\n\nbody {\n  background-color: #00000000 !important;\n}\n\n.in7vHe.FR7ZSc.FR7ZSc .niO4u,\ndiv.RNNXgb,\n.aajZCb {\n  background-color: var(--EpFNW) !important;\n}",
@@ -412,6 +447,12 @@
       "marca-no footer": "footer{\n  display: none !important;\n}",
       "marca-hidden": ".seo-links-container-justify-center, .seo-links-container{\n  display: none !important;\n}"
     },
+    "meet.google.com.css": {
+      "meet-transparency": "html, body, nav, header, [jsname=\"Jup3Tc\"], .c8mVDd, c-wiz, .Sdwpn.P9KVBf, .P9KVBf .dkjMxf, .R3Gmyc, .WUFI9b{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "meet-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "meet-no footer": "footer, .xDIlIc, .sxAeHb{\n  display: none !important;\n}",
+      "meet-hidden": ".XG3Kfe, h1.r3f7Nb, .MZWksc{\n  display: none !important;\n}"
+    },
     "messages.google.com.css": {
       "messages-transparency": "html, body, nav, .header, mw-main-nav, mw-main-landing, mw-conversation-container, .input-background, mw-new-conversation-container{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "messages-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
@@ -420,6 +461,11 @@
     },
     "messenger.com.css": {
       "fbm-transparecy": ":root {\n  --web-wash: #00000000 !important;\n  --messenger-card-background: #00000000 !important;\n  --mwp-header-background-color: #00000000 !important;\n  --mwp-message-row-background: #00000000 !important;\n}\n\n.xcrg951 {\n  background-color: #00000000 !important;\n  box-shadow: none !important;\n}"
+    },
+    "meta.appinn.net.css": {
+      "appinn-transparency": "html, body, nav, header, .sidebar-wrapper, .sidebar-footer-wrapper{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "appinn-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "appinn-no footer": "footer{\n  display: none !important;\n}"
     },
     "miruro.tv.css": {
       "miruro-transparency": "html, body, .eGxCRW, .iDHeGb, .daqunT, .hIxxKF, .ijmopf, .cqJwte, .eakZjw, .gfuLhl, .kdqxUl, .fwmihZ, .iiVqpN{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -527,7 +573,7 @@
       "reddit-no chat feed": "[source=\"chat_module_home\"]{\n  display: none !important;\n}",
       "reddit-hide elements": "div aside recent-posts, hr {\n  display: none !important;\n}\n\nnav.z-\\[2\\] > nav:nth-child(18),\ndiv.visible {\n  display: none !important;\n}\n\nhr.w-100.my-sm.border-neutral-border-weak {\n  display: none !important;\n}",
       "reddit-other changes": ".overflow-visible > div:nth-child(32),\nfaceplate-dropdown-menu {\n  border-radius: 1em 1em 0 0 !important;\n}",
-      "reddit-hover": "div.left-sidebar,\n#right-sidebar-container {\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover {\n    opacity: 1 !important;\n  }\n}"
+      "reddit-hover": "div.left-sidebar,\n#right-sidebar-container, flex-left-nav-container {\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover {\n    opacity: 1 !important;\n  }\n}"
     },
     "remove.bg.css": {
       "removebg-transparency": "html, body, #navbar{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -537,6 +583,11 @@
     },
     "sameerasw.com.css": {
       "sameerasw-transprecy": ":root {\n  --background-color-primary: #00000000 !important;\n}"
+    },
+    "screenmusings.org.css": {
+      "screenmusings-transparency": "html, body, nav, header, #thumbnails-container{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "screenmusings-no footer": "footer{\n  display: none !important;\n}",
+      "screenmusings-rounded": "#navigation{\n  border-radius: 1em !important;\n}"
     },
     "search.brave.com.css": {
       "brave-transparecy": ":root{\n  --color-page-background: transparent !important;\n}",
@@ -568,6 +619,11 @@
       "sport.es-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
       "sport.es-no footer": "footer{\n  display: none !important;\n}",
       "sport.es-hidden": ".seo-links-container-justify-center, .seo-links-container, .header-sportTop{\n  display: none !important;\n}"
+    },
+    "sspai.com.css": {
+      "sspai-transparency": "html, body, nav, header, #app, .loadingDiv, #app::after, .ss__custom__header__wrapper[data-v-1cf92778]::after{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "sspai-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "sspai-no footer": "footer{\n  display: none !important;\n}"
     },
     "stackexchange.com.css": {
       "stackex-transparency": "html, body, header, #content, .question-container{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -601,6 +657,10 @@
       "threads-transparency": "html, body, .x1g7m7fl, #barcelona-page-layout, .x1ggkfyp, .x3ir7cq, .xz401s1, .xzii09s{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\n.x9f619 *{\n  border: none !important;\n}",
       "threads-overlay fixes": "[role=\"menu\"] > div > div, [role=\"dialog\"] > div > div{\n  background-color: var(--nav-bar-background) !important;\n  border-radius: 1em !important;\n}",
       "threads-sidebar icon contrast": ".__fb-dark-mode .x7c8izy svg{\n  color: var(--chat-text-blockquote-color-text-primary-media) !important;\n}\n\n.__fb-light-mode .x7c8izy svg{\n  color: var(--fds-black-alpha-80) !important;\n}"
+    },
+    "translate.google.com.css": {
+      "translate-transparency": "html, body, nav, header, .ccvoYb, .QcsUad, [jsname=\"HexNre\"]::after, [jsname=\"ji7Qmb\"]::after, nav.U0xwnf::after, c-wiz{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "translate-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}"
     },
     "twitch.tv.css": {
       "twitch-transparecy": ":root {\n  --color-background-body: transparent !important;\n  --color-background-base: transparent !important;\n  --shadow-elevation-1: none !important;\n  --color-background-alt: transparent !important;\n}\n\n.video-player,\n.video-player__container,\n.channel-root {\n  background: #00000000 !important;\n  background-color: #00000000 !important;\n}"
@@ -685,7 +745,8 @@
       "yt-Theatre: zen view": "[theater=\"\"] #full-bleed-container{\n  height: 100vh !important;\n  max-height: 100vh !important;\n  top: 0 !important;\n}\n\n#masthead-container, #columns #secondary{\n  transition: all 0.3s ease-in-out 0.5s !important;\n}",
       "yt-no header, press / to access": "body #masthead-container:not(:has(.ytSearchboxComponentInputBoxHasFocus)){\n  top: -40px !important;\n  opacity: 0 !important;\n  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;\n  &:hover{\n    opacity: 1 !important;\n    top: 0 !important;\n  }\n}\n\n:root{\n  --ytd-toolbar-height: 0 !important;\n}",
       "yt-zen view comments": "[theater=\"\"] #columns #secondary{\n  scale: 0 !important;\n  display: none !important;\n}\n\nytd-comments{\n  transition: all 0.5s ease-in-out !important;\n}\n\n[theater=\"\"] ytd-comments{\n  position: fixed !important;\n  z-index: 1000 !important;\n  top: 3vh !important;\n  left: -35em !important;\n  width: 40em !important;\n  height: 90vh !important;\n  overflow-y: scroll !important;\n  opacity: 0 !important;\n\n  background-color: var(--yt-live-chat-shimmer-background-color) !important;\n  padding: 0 3em !important;\n  border-radius: 0 2em 2em 0 !important;\n\n  &:hover{\n    opacity: 1 !important;\n    left: 0 !important;\n  }\n\n}",
-      "yt-zen view comments blur": "[theater=\"\"] ytd-comments{\n  bacdrop-filter: blur(20px) !important;\n}"
+      "yt-zen comments solid": "[theater=\"\"] ytd-comments{\n  background-color: var(--yt-spec-text-primary-inverse) !important;\n}",
+      "yt-zen comments blur": "[theater=\"\"] ytd-comments{\n  background-color: var(--yt-live-chat-shimmer-background-color) !important;\n  backdrop-filter: blur(20px) !important;\n}"
     },
     "youvideototext.com.css": {
       "v2t-transparency": "html, body, header, .ring-offset-background, .shadow-lg{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
