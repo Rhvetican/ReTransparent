@@ -7,6 +7,12 @@
       "aliexpress-sticky header": "#_full_container_header_23_{\n  border-radius: 1em !important;\n}",
       "aliexpress-borders": "[data-spm=\"sale_banner\"]{\n  border-radius: 1em !important;\n  overflow: hidden !important;\n  margin: 1em !important;\n}\n\na._1UZxx{\n  border-radius: 2em !important;\n  padding: 1em !important;"
     },
+    "+itch.io.css": {
+      "itch-transparency": "html, body, nav, header, .index_sidebar, #maincontent, .primary_header, .anon_intro{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "itch-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "itch-no footer": ".footer{\n  display: none !important;\n}",
+      "itch-no game bg": "#wrapper, #wrapper > #inner_column{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
+    },
     "+namecheap.com.css": {
       "namecheap-transparency": "html, body, #header, nav, #header .top-hat, #apnav li, th, td, .gb-header, .gb-top-block, .uiexpiringsoon .nav-tabs, .tab-list, li.tab{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "namecheap-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
@@ -21,6 +27,11 @@
     "+pinterest.com.css": {
       "pin-transparecy": ":root {\n  --color-background-box-light: transparent !important;\n  --color-background-box-default: transparent !important;\n}\n\n.mainContainer\n  > div:nth-child(1)\n  > div:nth-child(3)\n  > div:nth-child(1)\n  > div:nth-child(2)\n  > div:nth-child(1) {\n  background-color: transparent !important;\n}",
       "pin-text color": "body,\n#VerticalNavContent {\n  color: #fff !important;\n  fill: #fff !important;\n}\n\n#VerticalNavContent {\n  filter: invert() !important;\n  border: none !important;\n}"
+    },
+    "+sharepoint.com.css": {
+      "sharepoint-transparency": "html, body, nav, header, [data-automationid=\"spartan-od-app-container\"], #odList, [data-automationid=\"row-header\"], [role=\"row\"], .odsp-spartan-cell{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n  border-image: none !important;\n}",
+      "sharepoint-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "sharepoint-no footer": "footer{\n  display: none !important;\n}"
     },
     "+wikipedia.org.css": {
       "transparency": ":root{\n  --background-color-interactive-subtle: transparent !important;\n}\n\nhtml, body, header, .mw-page-container, .vector-pinned-container, .vector-sticky-pinned-container::after, .infobox{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -309,13 +320,18 @@
       "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}"
     },
     "github.com.css": {
-      "gh-transparency": "html, body, header, .color-bg-default, .feed-background, [aria-labelledby=\"folders-and-files\"] .bgColor-muted, nav, .dxnHPp, .kcVpNH, .discussion-timeline-actions, .TimelineItem-break, .gh-header, .PageLayout-pane, .bSTcOH, .gOhIYN, #blob-edit-side-panel-id, #repository-container-header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "gh-transparency": "html, body, header, .color-bg-default, .feed-background, [aria-labelledby=\"folders-and-files\"] .bgColor-muted, nav, .dxnHPp, .kcVpNH, .discussion-timeline-actions, .TimelineItem-break, .gh-header, .PageLayout-pane, .bSTcOH, .gOhIYN, #blob-edit-side-panel-id, #repository-container-header, #notification-shelf:not(.is-stuck), #user-profile-frame .Box-body{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "gh-transparent lists": ".PageLayout-content .Box, .PageLayout-content .Box-row, #repo-content-turbo-frame .Box{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "gh-bordered boxes": "[data-selector=\"repos-split-pane-content\"] {\n  section,\n  .NWhVB,\n  .cm-gutters,\n  [data-testid=\"codemirror-editor\"],\n  [data-testid=\"codemirror-editor\"] .cm-content, .llKfAj {\n    background: none !important;\n    box-shadow: none !important;\n  }\n}\n\n#user-profile-frame .Box,\n.mgKNn, .fGELhp, .timeline-comment, .empty-diff-line, .Diff-module__diffHeaderWrapper--rsdD4::before {\n  background: none !important;\n  box-shadow: none !important;\n}\n\n.feed-item-content, .color-bg-subtle, .ajax-pagination-btn, action-graph .color-bg-inset{\n  background-color: transparent !important;\n  background: none !important;\n  box-shadow: none !important;\n}",
       "gh-no footer": "footer:has(h2), div.px-2:nth-child(3){\n  opacity: 0 !important;\n}",
       "gh-hover": ".feed-left-sidebar, .feed-right-sidebar{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}",
       "gh-border mods": "table, .eIKYQa, div.border-bottom, td{\n  border: none !important;\n}\n\n.dJnomT,.jPdcfu, .gOHzTT, .eBevHz, .Box-header, #repos-sticky-header > div, .jbBkdO{\n  border-radius: 0.5em !important;\n  overflow: hidden;\n}",
       "gh-overlay fixes": "modal-dialog .search-suggestions,details-dialog.Box, .Box-body{\n  background-color: var(--bgColor-inset) !important;\n  border-radius: 1em !important;\n}"
+    },
+    "gitlab.com.css": {
+      "gitlab-transparency": "html, body, nav, header, [data-testid=\"top-bar\"], .gl-bg-subtle, table{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "gitlab-no footer": "footer{\n  display: none !important;\n}",
+      "gitlab-hover": "#super-sidebar{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}"
     },
     "gndown.com.css": {
       "transparency": "html, body, nav,body:not(.nav-fixed) header, .excerpts-title, .excerpt, .widget-nav, .widget{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -324,14 +340,17 @@
     },
     "google.com.css": {
       "google-transparecy": "html,\nbody,\ndiv,\nsection,\narticle,\nheader,\nfooter,\nmain,\naside,\nnav,\nspan,\nform,\ninput,\nbutton,\ntable,\ntbody,\ntr,\ntd {\n  background: transparent !important;\n}\n\n.aajZCb {\n  background-color: var(--uv-styles-color-surface) !important;\n}\n\ndiv.sfbg {\n  background-color: var(--darkreader-border-ffffff) !important;\n}\n\n:root {\n  --darkreader-background-ffffff: transparent !important;\n}\n\nbody {\n  background-color: #00000000 !important;\n}\n\n.in7vHe.FR7ZSc.FR7ZSc .niO4u,\ndiv.RNNXgb,\n.aajZCb {\n  background-color: var(--EpFNW) !important;\n}",
-      "google-shadows and borders": ".minidiv .sfbg,\n.minidiv .sfbg,\n.JryvJ .qS9jbf,\n.sHEJob,\n.Hwkikb.WY0eLb {\n  box-shadow: none !important;\n  border: none !important;\n}\n\n#sfooter,\n[role=\"contentinfo\"] {\n  display: none !important;\n}\n\n.w6VYqd {\n  background-color: #fff !important;\n}",
+      "google-shadows and borders": ".minidiv .sfbg,\n.minidiv .sfbg,\n.JryvJ .qS9jbf,\n.sHEJob,\n.Hwkikb.WY0eLb {\n  box-shadow: none !important;\n  border: none !important;\n}\n\n#sfooter,\n[role=\"contentinfo\"] {\n  display: none !important;\n}\n\n.w6VYqd {\n  background-color: light-dark(#fff, #000) !important;\n}",
       "google-hover": ".rfiSsc {\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n\n  &:hover {\n    opacity: 1 !important;\n  }\n}",
-      "google-full overlay fix": "#liveresults-sports-immersive__match-fullpage {\n  background-color: var(--EpFNW) !important;\n}\n\n#liveresults-sports-immersive__match-fullpage  .nGzje{\n  background-color: var(--uv-styles-color-footer) !important;\n  border-radius: 2em !important;\n}"
+      "google-full overlay fix": "#liveresults-sports-immersive__match-fullpage {\n  background-color: var(--EpFNW) !important;\n}\n\n#liveresults-sports-immersive__match-fullpage  .nGzje{\n  background-color: var(--uv-styles-color-footer) !important;\n  border-radius: 2em !important;\n}",
+      "google-maps": "html:has([title=\"Google Maps\"]){\n.xoLGzf, .tXNTee, .hdeJwf, .DAdBuc, .E9Z7uf .m6QErb.iS1Ot, .ztgaDb, .WzvKIe{\n  background: light-dark(#fff, #000) !important;\n}\n}"
     },
     "google.pl.css": {
       "google-transparecy": "html,\nbody,\ndiv,\nsection,\narticle,\nheader,\nfooter,\nmain,\naside,\nnav,\nspan,\nform,\ninput,\nbutton,\ntable,\ntbody,\ntr,\ntd {\n  background: transparent !important;\n}\n\n.aajZCb {\n  background-color: var(--uv-styles-color-surface) !important;\n}\n\ndiv.sfbg {\n  background-color: var(--darkreader-border-ffffff) !important;\n}\n\n:root {\n  --darkreader-background-ffffff: transparent !important;\n}\n\nbody {\n  background-color: #00000000 !important;\n}\n\n.in7vHe.FR7ZSc.FR7ZSc .niO4u,\ndiv.RNNXgb,\n.aajZCb {\n  background-color: var(--EpFNW) !important;\n}",
-      "google-shadows and borders": ".minidiv .sfbg,\n.minidiv .sfbg,\n.JryvJ .qS9jbf,\n.sHEJob,\n.Hwkikb.WY0eLb {\n  box-shadow: none !important;\n  border: none !important;\n}\n\n#sfooter,\n[role=\"contentinfo\"] {\n  display: none !important;\n}\n\n.w6VYqd {\n  background-color: #fff !important;\n}",
-      "google-hover": ".rfiSsc {\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n\n  &:hover {\n    opacity: 1 !important;\n  }\n}"
+      "google-shadows and borders": ".minidiv .sfbg,\n.minidiv .sfbg,\n.JryvJ .qS9jbf,\n.sHEJob,\n.Hwkikb.WY0eLb {\n  box-shadow: none !important;\n  border: none !important;\n}\n\n#sfooter,\n[role=\"contentinfo\"] {\n  display: none !important;\n}\n\n.w6VYqd {\n  background-color: light-dark(#fff, #000) !important;\n}",
+      "google-hover": ".rfiSsc {\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n\n  &:hover {\n    opacity: 1 !important;\n  }\n}",
+      "google-full overlay fix": "#liveresults-sports-immersive__match-fullpage {\n  background-color: var(--EpFNW) !important;\n}\n\n#liveresults-sports-immersive__match-fullpage  .nGzje{\n  background-color: var(--uv-styles-color-footer) !important;\n  border-radius: 2em !important;\n}",
+      "google-maps": "html:has([title=\"Google Maps\"]){\n.xoLGzf, .tXNTee, .hdeJwf, .DAdBuc, .E9Z7uf .m6QErb.iS1Ot, .ztgaDb, .WzvKIe{\n  background: light-dark(#fff, #000) !important;\n}\n}"
     },
     "grok.com.css": {
       "grok-transparency": "html, body, .bg-background{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -526,6 +545,11 @@
       "spotify-rounded now playing": "#Desktop_PanelContainer_Id::before{\n  border-radius: 1em !important;\n}",
       "spotify-no thanks": "[data-testid=\"upgrade-button\"], a[href=\"/download\"]{\n  display: none !important;\n}"
     },
+    "openrouter.ai.css": {
+      "openrouter-transparency": "html, body, nav, header, .bg-background, .bg-popover:has([aria-controls=\"search-command-list\"]), .to-background{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "openrouter-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "openrouter-no footer": "footer, hr{\n  display: none !important;\n}"
+    },
     "perplexity.ai.css": {
       "perplexity-transparency": "body,#__next > main:nth-child(1) > div:nth-child(1),  .erp-tab\\:rounded-none, div.sticky:nth-child(2), .pb-\\[144px\\] > div:nth-child(1), .pb-32 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1), .mt-xs > div:nth-child(1) > div:nth-child(1), .dark\\:bg-offsetDark{\n  background-color: transparent !important;\n  border: none !important;\n}",
       "perplexity-hover": ".grid-cols-6{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}",
@@ -558,6 +582,12 @@
       "quora-transparecy": "body,\n.q-color-mode--dark .qu-borderColor--raised {\n  background-color: transparent !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "quora-other changes": ".qu-borderRadius--small {\n  border-radius: 1em !important;\n}\n\ndiv.q-box.qu-py--small.qu-color--gray_light {\n  display: none !important;\n}"
     },
+    "quran.com.css": {
+      "quran-transparency": "html, body, nav, header, .NavbarBody_itemsContainer__l6N_R, .HomePageHero_backgroundImage__BUFE_, .index_bodyContainer__CKN6o, .QuranReader_container__BlSji, .ContextMenu_sectionsContainer__FQqlA, .ContextMenu_container__4zfsC{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "quran-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "quran-no footer": "footer{\n  display: none !important;\n}",
+      "quran-no bg": ".HomePageHero_backgroundImage__BUFE_ svg{\n  display: none !important;\n}"
+    },
     "rebang.today.css": {
       "rebang-transparency": "html, body, nav, header, #root > div, .dark .dark\\:bg-primaryDark-200, .bg-primary-200{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
       "rebang-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
@@ -580,6 +610,13 @@
       "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
       "removebg-no footer": "footer{\n  display: none !important;\n}",
       "removebg-minimal": "div.prism:nth-child(2) > div:nth-child(n+2):nth-child(-n+11){\n  display: none;\n}"
+    },
+    "reverso.net.css": {
+      "reverso-transparency": "html, body, nav, header, app-new-top-bar-desktop, .translation-box, .logo-wrapper{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "reverso-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "reverso-no footer": "footer{\n  display: none !important;\n}",
+      "reverso-no thanks": "app-ab-double-banner, app-premium-banner, app-features-promotion{\n  display: none !important;\n}",
+      "reverso-card transparency": ".translation-box-wrapper{\n  background-color: transparent !important;\n  border: 1px solid gray;\n}"
     },
     "sameerasw.com.css": {
       "sameerasw-transprecy": ":root {\n  --background-color-primary: #00000000 !important;\n}"
@@ -642,6 +679,11 @@
       "startpage-no footer": ".footer-above-the-fold, footer, .feedback-serp-container{\n  display: none !important;\n}",
       "startpage-hover": "#home-top-header, .top-nav-container{\n  opacity: 0 !important;\n  transition: all 0.3s ease-in-out !important;\n  &:hover{\n    opacity: 1 !important;\n  }\n}"
     },
+    "stats.fm.css": {
+      "stats.fm-transparency": "html, body, nav, header, .font-body > .bg-foreground, p.bg-background{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n  display: none !important;\n}"
+    },
     "substack.com.css": {
       "substack-transparency": ".pc-root, .reader-nav-root, .bg-primary-zk6FDl, .topNav-x_3DWw{\n  background-color: transparent !important;\n  border: none !important;\n}"
     },
@@ -653,6 +695,9 @@
       "ted-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
       "ted-no footer": "footer{\n  display: none !important;\n}"
     },
+    "theonion.com.css": {
+      "theonion-transparent": ":root{\n  --darkreader-background-ffffff: transparent !important;\n  --wp--preset--color--shade-2: transparent !important;\n}"
+    },
     "threads.net.css": {
       "threads-transparency": "html, body, .x1g7m7fl, #barcelona-page-layout, .x1ggkfyp, .x3ir7cq, .xz401s1, .xzii09s{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\n.x9f619 *{\n  border: none !important;\n}",
       "threads-overlay fixes": "[role=\"menu\"] > div > div, [role=\"dialog\"] > div > div{\n  background-color: var(--nav-bar-background) !important;\n  border-radius: 1em !important;\n}",
@@ -663,7 +708,8 @@
       "translate-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}"
     },
     "twitch.tv.css": {
-      "twitch-transparecy": ":root {\n  --color-background-body: transparent !important;\n  --color-background-base: transparent !important;\n  --shadow-elevation-1: none !important;\n  --color-background-alt: transparent !important;\n}\n\n.video-player,\n.video-player__container,\n.channel-root {\n  background: #00000000 !important;\n  background-color: #00000000 !important;\n}"
+      "twitch-transparency": ":root {\n  --color-background-body: transparent !important;\n  --color-background-base: transparent !important;\n  --shadow-elevation-1: none !important;\n  --color-background-alt: transparent !important;\n}\n\nhtml, body, nav, header, .chat-room, .channel-root__right-column, .ixiIRM > div:nth-child(1), .stream-display-ad__container_squeezeback, .video-player,\n.video-player__container,\n.channel-root{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\nbody:has(.persistent-player--theatre){\n    .channel-root, nav{\n    display: none !important;\n  }\n}\n\n.highlight, .chat-input-tray__open{\n  background-color: var(--color-background-input-checkbox-checked-background) !important;\n}",
+      "twitch-no footer": "footer{\n  display: none !important;\n}"
     },
     "unsplash.com.css": {
       "unsplash-transparecy": ":root {\n  --darkreader-background-ffffff: transparent !important;\n  --color-white: #00000000 !important;\n}\n\nbody {\n  background-color: #00000000 !important;\n}\n\n.xWFB_,\nheader form {\n  background-color: #00000000 !important;\n}\n\nhtml,\nbody,\n.EtnYM,\n.b4j4s {\n  background-color: #00000000 !important;\n  color: #fff !important;\n}",
@@ -728,25 +774,26 @@
       "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}"
     },
     "youtube.com.css": {
-      "yt-Transparency": ":root {\n  --primary-background-color: #00000000 !important;\n  --dark-theme-background-color: #00000000 !important;\n  --yt-spec-base-background: #00000000 !important;\n  --yt-spec-brand-background-solid: #00000000 !important;\n}\n\nhtml[dark], html {\n  background-color: #00000000 !important;\n}\n\n#container.ytd-searchbox {\n  background-color: #00000000 !important;\n}",
+      "yt-Transparency": "html[dark], html, #container.ytd-searchbox, ytd-app, #page-header-container, #page-header, #tabs-container, #tabs-inner-container, #chips-wrapper  {\n  background-color: #00000000 !important;\n}\n\n#tabs-divider{\n  display: none !important;\n}",
       "yt-No left side guide": "ytd-mini-guide-renderer {\n  display: none !important;\n}\n#page-manager {\n  margin-left: 0 !important;\n}",
-      "yt-Transparent header": "#masthead-container {\n  #background.ytd-masthead {\n    background-color: #00000000 !important;\n  }\n}",
+      "yt-Transparent header": "#masthead-container {\n  #background.ytd-masthead {\n    background-color: #00000000 !important;\n  }\n}\n\n.ytSearchboxComponentSearchButton {\n  background-color: var(--yt-spec-text-primary-inverse) !important;\n  color: var(--yt-live-chat-text-input-field-placeholder-color) !important;\n}",
+      "yt-auto hide header": "body #masthead-container:not(:has(.ytSearchboxComponentInputBoxHasFocus)){\n  top: -40px !important;\n  opacity: 0 !important;\n  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;\n  &:hover{\n    opacity: 1 !important;\n    top: 0 !important;\n  }\n}\n\n:root{\n  --ytd-toolbar-height: 0px !important;\n}",
+      "yt-no voice search": "#voice-search-button{\n  display: none !important;\n}\n\n#chips-wrapper{\n  top: 0 !important\n}",
       "yt-Hide filter chips": ".ytd-two-column-browse-results-renderer #header {\n  display: none !important;\n}",
-      "yt-Make feed compact": "ytd-rich-item-renderer[rendered-from-rich-grid] {\n  --ytd-rich-item-row-usable-width: calc(\n    100% - var(--ytd-rich-grid-gutter-margin) * 1\n  ) !important;\n  margin-bottom: 1em !important;\n}\nytd-video-meta-block.grid #metadata.ytd-video-meta-block {\n  flex-direction: row !important;\n  text-overflow: ellipsis !important;\n\n  #metadata-line span:nth-child(3) {\n    width: 2em !important;\n    height: 1em !important;\n    margin-left: 0.5em !important;\n  }\n}",
-      "yt-Feed cards improvements": "ytd-rich-grid-media {\n  margin-bottom: 0.7em !important;\n  ytd-menu-renderer #button {\n    opacity: 0 !important;\n    transition: opacity 0.3s ease-in-out !important;\n  }\n  :hover ytd-menu-renderer #button {\n    opacity: 1 !important;\n  }\n\n  #avatar-container {\n    margin: 1.75em 1.5em 0 0.5em !important;\n    transition: scale 0.4s ease-in-out !important;\n\n    .yt-spec-avatar-shape--avatar-size-medium {\n      width: 45px !important;\n      height: 45px !important;\n\n      .yt-spec-avatar-shape__image {\n        border-radius: 1.5em !important;\n      }\n    }\n\n    &:hover {\n      scale: 1.2 !important;\n    }\n  }\n}",
+      "yt-Compact feed": "ytd-rich-item-renderer{\n  margin-bottom: 15px !important;\n  [rendered-from-rich-grid] {\n  --ytd-rich-item-row-usable-width: calc(\n      100% - var(--ytd-rich-grid-gutter-margin) * 1\n    ) !important;\n  }\n\n  #metadata.ytd-video-meta-block {\n    flex-direction: row !important;\n\n    #metadata-line span:nth-child(3) {\n      height: 1em !important;\n      margin-left: 1em !important;\n    }\n  }\n}\n\nytd-rich-grid-media {\n  border-radius: 1.2em;\n    height: 100%!important;\n\n  ytd-menu-renderer #button {\n    opacity: 0 !important;\n    transition: opacity 0.3s ease-in-out !important;\n  }\n  :hover ytd-menu-renderer #button {\n    opacity: 1 !important;\n  }\n}",
+      "yt-circular channels": ".yt-spec-avatar-shape__image {\n    border-radius: 1em !important;\n  }",
+      "yt-thumbnail hover": "#inline-preview-player{\n  transition: scale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;\n  scale: 1 !important;\n}\n\n#video-preview-container:has(#inline-preview-player){\n  transition: scale 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;\n  border-radius: 1.2em !important;\n  overflow: hidden !important;\n  scale: 1 !important;\n}\n\n#video-preview-container:has(#inline-preview-player):hover{\n  scale: 1.25 !important;\n  box-shadow: black 0px 0px 50px;\n}\nytd-app #content{\n  opacity: 1 !important;\n  transition: opacity 0.4s ease-in-out 0.3s !important;\n}\nytd-app:has(#video-preview-container:hover) #content{\n  opacity: 0.5 !important;\n}",
+      "yt-no feed distractions": "#contents ytd-rich-section-renderer{\ndisplay: none !important;\n}\n\n#inline-preview-player{\n  border-radius: 1em !important;\n  overflow: hidden !important;\n}",
       "yt-Transparent video background": ".html5-main-video,\n.html5-video-container,\n#movie_player,\n#container,\n#ytd-player,\n#player-container,\n#player-full-bleed-container,\n#full-bleed-container {\n  background-color: #00000000 !important;\n}",
-      "yt-transparent overlay chat": "#chat {\n  position: absolute !important;\n  height: 800px !important;\n  top: 50vh !important;\n  transform: translateY(-50%) !important;\n}",
-      "yt-search box background": ".ytSearchboxComponentSearchButton,\ndiv.style-scope.tp-yt-app-drawer,\n.ytSearchboxComponentInputBox {\n  background-color: var(--yt-spec-text-primary-inverse) !important;\n  color: var(--yt-live-chat-text-input-field-placeholder-color) !important;\n}\n\nyt-live-chat-renderer {\n  background: none !important;\n  background-color: transparent !important;\n}",
       "yt-no ambient mode": "#cinematics-container{\n  display: none !important;\n}",
-      "yt-Addon : timed comments": ".__youtube-timestamps__stamp {\n  scale: 3 !important;\n  border-radius: 1.5px !important;\n  transition: all 0.3s ease-in-out !important;\n  z-index: 10000000000000 !important;\n\n  &:hover {\n    scale: 5 !important;\n  }\n}\n\n.__youtube-timestamps__preview-wrapper {\n  scale: 1.2 !important;\n  transform: translateX(16%) !important;\n  .__youtube-timestamps__preview {\n    border-radius: 1em !important;\n    backdrop-filter: blur(20px) !important;\n    background-color: #000000bb !important;\n    border: solid 2px gray !important;\n\n    .__youtube-timestamps__preview__avatar {\n      height: 2.5em !important;\n      width: 2.5em !important;\n      border-radius: 0.5em !important;\n    }\n\n    .__youtube-timestamps__preview__text-stamp {\n      background-color: #ffaaaa !important;\n      padding: 0.1em 0.3em !important;\n      border-radius: 0.5em !important;\n      color: #000 !important;\n    }\n\n    .__youtube-timestamps__preview__name,\n    .__youtube-timestamps__preview__text {\n      color: #ffffff !important;\n    }\n  }\n}\n\n.comments-container {\n  div.wrapper {\n    background-color: transparent !important;\n  }\n\n  div.clickable-comment,\n  div.replies {\n    background-color: #00000077 !important;\n    backdrop-filter: blur(20px) !important;\n    padding: 1em !important;\n    margin-bottom: 1em !important;\n    border-radius: 1em !important;\n    max-width: 40em !important;\n    transition: all 0.4s ease-in-out !important;\n\n    .likes-and-replies {\n      opacity: 0.3 !important;\n    }\n  }\n}",
-      "yt-Misc": "#content #dismissible:hover {\n  ytd-video-meta-block {\n    opacity: 1 !important;\n  }\n}\n\n#panels-full-bleed-container {\n  width: 0 !important;\n}",
-      "yt-no feed distractions": "#contents ytd-rich-section-renderer{\ndisplay: none !important;\n}",
       "yt-clean player page": "ytd-merch-shelf-renderer, .annotation{\n  display: none !important;\n}",
       "yt-Theatre: zen view": "[theater=\"\"] #full-bleed-container{\n  height: 100vh !important;\n  max-height: 100vh !important;\n  top: 0 !important;\n}\n\n#masthead-container, #columns #secondary{\n  transition: all 0.3s ease-in-out 0.5s !important;\n}",
-      "yt-no header, press / to access": "body #masthead-container:not(:has(.ytSearchboxComponentInputBoxHasFocus)){\n  top: -40px !important;\n  opacity: 0 !important;\n  transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;\n  &:hover{\n    opacity: 1 !important;\n    top: 0 !important;\n  }\n}\n\n:root{\n  --ytd-toolbar-height: 0 !important;\n}",
       "yt-zen view comments": "[theater=\"\"] #columns #secondary{\n  scale: 0 !important;\n  display: none !important;\n}\n\nytd-comments{\n  transition: all 0.5s ease-in-out !important;\n}\n\n[theater=\"\"] ytd-comments{\n  position: fixed !important;\n  z-index: 1000 !important;\n  top: 3vh !important;\n  left: -35em !important;\n  width: 40em !important;\n  height: 90vh !important;\n  overflow-y: scroll !important;\n  opacity: 0 !important;\n\n  background-color: var(--yt-live-chat-shimmer-background-color) !important;\n  padding: 0 3em !important;\n  border-radius: 0 2em 2em 0 !important;\n\n  &:hover{\n    opacity: 1 !important;\n    left: 0 !important;\n  }\n\n}",
       "yt-zen comments solid": "[theater=\"\"] ytd-comments{\n  background-color: var(--yt-spec-text-primary-inverse) !important;\n}",
-      "yt-zen comments blur": "[theater=\"\"] ytd-comments{\n  background-color: var(--yt-live-chat-shimmer-background-color) !important;\n  backdrop-filter: blur(20px) !important;\n}"
+      "yt-zen comments blur": "[theater=\"\"] ytd-comments{\n  background-color: var(--yt-live-chat-shimmer-background-color) !important;\n  backdrop-filter: blur(20px) !important;\n}",
+      "yt-transparent overlay chat": "#chat {\n  position: absolute !important;\n  height: 800px !important;\n  top: 50vh !important;\n  transform: translateY(-50%) !important;\n}\n\nyt-live-chat-renderer {\n  background: none !important;\n  background-color: transparent !important;\n}",
+      "yt-Misc": "#content #dismissible:hover {\n  ytd-video-meta-block {\n    opacity: 1 !important;\n  }\n}\n\n#panels-full-bleed-container {\n  width: 0 !important;\n}",
+      "yt-Addon : timed comments pop-up": ".__youtube-timestamps__stamp {\n  scale: 3 !important;\n  border-radius: 1.5px !important;\n  transition: all 0.3s ease-in-out !important;\n  z-index: 10000000000000 !important;\n\n  &:hover {\n    scale: 5 !important;\n  }\n}\n\n.__youtube-timestamps__preview-wrapper {\n  scale: 1.2 !important;\n  transform: translateX(16%) !important;\n  .__youtube-timestamps__preview {\n    border-radius: 1em !important;\n    backdrop-filter: blur(20px) !important;\n    background-color: #000000bb !important;\n    border: solid 2px gray !important;\n\n    .__youtube-timestamps__preview__avatar {\n      height: 2.5em !important;\n      width: 2.5em !important;\n      border-radius: 0.5em !important;\n    }\n\n    .__youtube-timestamps__preview__text-stamp {\n      background-color: #ffaaaa !important;\n      padding: 0.1em 0.3em !important;\n      border-radius: 0.5em !important;\n      color: #000 !important;\n    }\n\n    .__youtube-timestamps__preview__name,\n    .__youtube-timestamps__preview__text {\n      color: #ffffff !important;\n    }\n  }\n}\n\n.comments-container {\n  div.wrapper {\n    background-color: transparent !important;\n  }\n\n  div.clickable-comment,\n  div.replies {\n    background-color: #00000077 !important;\n    backdrop-filter: blur(20px) !important;\n    padding: 1em !important;\n    margin-bottom: 1em !important;\n    border-radius: 1em !important;\n    max-width: 40em !important;\n    transition: all 0.4s ease-in-out !important;\n\n    .likes-and-replies {\n      opacity: 0.3 !important;\n    }\n  }\n}"
     },
     "youvideototext.com.css": {
       "v2t-transparency": "html, body, header, .ring-offset-background, .shadow-lg{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
@@ -761,6 +808,155 @@
     },
     "zen-browser.app.css": {
       "zen-transparency": "body, .astronav-items{\n  background-color: #00000000 !important;\n}\n\n.bg-dark{\n  background-color: #ffffff88 !important;\n  border: none !important;\n}\n\n:root{\n  --light: transparent !important;\n}"
+    },
+    "feedly.com.css": {
+      "feedly-Transparency": "html, body, nav, header, .FeedlyChrome, #feedlyFrame, #headerBarFX, .TopHeaderBar, .LeftnavEmptySpace{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "feedly-No thanks": ".TZCVJGAQJfvz8bV8MrrA{\n  display: none !important;\n}"
+    },
+    "arstechnica.com.css": {
+      "arstechnica-transparency": "html, body, nav, header, header > div, div.dusk\\:bg-gray-700:nth-child(4), article > div{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "arstechnica-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "arstechnica-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "ghacks.net.css": {
+      "ghacks-transparency": "html, body, nav, header, .ghacks-header div, section, .home-latest-artitles, .home-popular-posts{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "ghacks-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "ghacks-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "openapk.net.css": {
+      "transparency": "html, body, nav, header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n  display: none !important;\n}"
+    },
+    "letterboxd.com.css": {
+      "lb-Transparency": "body, .site-body, footer, .journal-header, .journal-page-header, .page-body, .journal-page-section.latest-articles .article-summary-grid.-medium::before, .journal-page-section.home-feature, body.editorial .page-bg, .journal-page-header + .article-hero::before {\n  background: transparent !important;\n}\n.backdropped .site-header .site-header-bg {\n  background-image: none !important;\n}",
+      "lb-Better Text Color": "p {\n  color: #a0b0be !important;\n}",
+      "lb-Hide Footer": "footer {\n  display: none !important;\n}",
+      "lb-Fade Background Image": ".backdropimage {\n  -webkit-mask-image: \n    linear-gradient(90deg,rgba(0,0,0,1) 75%, rgba(0,0,0,0) 99%),\n    linear-gradient(180deg,rgba(0,0,0,1) 60%, rgba(0,0,0,0) 70%),\n    linear-gradient(270deg,rgba(0,0,0,1) 75%, rgba(0,0,0,0) 99%) !important;\n  -webkit-mask-composite: intersect !important;\n mask-image: \n    linear-gradient(90deg,rgba(0,0,0,1) 75%, rgba(0,0,0,0) 99%),\n    linear-gradient(180deg,rgba(0,0,0,1) 60%, rgba(0,0,0,0) 70%),\n    linear-gradient(270deg,rgba(0,0,0,1) 75%, rgba(0,0,0,0) 99%) !important;\n  mask-composite: intersect !important;\n}\n.backdrop-wrapper .backdropmask::before {\n  background-image: none !important;\n}",
+      "lb-Actions Panel Transparency": ".actions-panel ul li {\n\tbackground: transparent !important;\n\tbackground-color: transparent !important;\n}",
+      "lb-Actions Panel Borders": ".actions-panel ul li {\n\tborder: none !important;\n}",
+      "lb-Hide Watch Panel": ".watch-panel {\n\tdisplay: none !important;\n}"
+    },
+    "tagesschau.de.css": {
+      "tagesschau-transparency": "html, body, nav, header, .teasergroup, .teaser__teaserinfo, .teaser, .background-standard, .timeline, .trenner, .content-wrapper__group, p{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\nheader:has(.is-visible)  .header__items{\n  background-color: transparent !important;\n}",
+      "tagesschau-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "tagesschau-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "freecodecamp.org.css": {
+      "freecodecamp-transparency": "html, body, nav, header, section, .gradient-container, pre{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "freecodecamp-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "freecodecamp-no footer": "footer, #banner{\n  display: none !important;\n}"
+    },
+    "store.steampowered.com.css": {
+      "steam-transparency": "html, body, nav, header, #global_header, .content, .tab_container, #content_login, .game_page_background.game{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "steam-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "steam-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "steamcommunity.com.css": {
+      "steamcom-transparency": "html, body, nav, header, #global_header, .content, .tab_container, #content_login, .game_page_background.game, .apphub_background{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "steamcom-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "steamcom-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "outlook.office365.com.css": {
+      "outlook-transparency": "html, body, nav, header, #appContainer, #O365_NavHeader, [aria-label=\"App launcher\"], #owaBranding_container > div, #LeftRail, .gU1Tf, [aria-label=\"Hide navigation pane\"], .root-171, .pivot-header-root > button, .QIl4y, .YYA9V, [data-app-section=\"MessageList\"], .bkYAr, #ReadingPaneContainerId, #OwaTitleBar button, #O365_HeaderRightRegion, .IjQyD, .customScrollBar, .X4w2q{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
+    },
+    "pepper.pl.css": {
+      "transparent pepper.pl": ":root{\n  --bgBasePrimary: transparent !important;\n  --bgBaseSecondary: transparent !important;\n  --bgBaseTertiary: transparent !important;\n  --bgNeutralPrimary: transparent !important;\n}\n.footer{\n  background-color: transparent !important;\n}"
+    },
+    "gg.deals.css": {
+      "transparent gg.deals": "html, body, .footer-wrapper {\n  background-color: transparent !important;\n  background: none !important;\n}"
+    },
+    "play.google.com.css": {
+      "gplay-transparency": "html, body, nav, header, .Usd1Ac:has([jscontroller=\"tKHFxf\"]){\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "gplay-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "gplay-no footer": "footer{\n  display: none !important;\n}",
+      "gplay-app rounded banner": ".dzkqwc:has(c-wiz){\n  border-radius: 2em !important;\n}"
+    },
+    "docs.python.org.css": {
+      "python-transparency": "html, body, nav, header, [role=\"navigation\"], #sidebarbutton{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "python-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "rutracker.org.css": {
+      "rutracker-transparency": "html, body, nav, header, #body_container, #page_container, #main-nav, .topmenu, h3, .news_title, td, .sb2-block{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "rutracker-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "rutracker-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "nunflix.org.css": {
+      "nunflix-transparency": "html, body, nav, header, .video-player-page{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "nunflix-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "nunflix-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "bundesliga.com.css": {
+      "bundesliga-transparency": "html, body, nav, header, .tile__match, .tile__epg, .teaser, dfl-editorial-teaser, .partnerbar, .row{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "bundesliga-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "bundesliga-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "amazon.com.css": {
+      "amazon-transparency": "html, body, nav, header, #nav-belt, #nav-main, #pageContent, .a-cardui, .image-shoveler, .a-section, #dp, #nav-progressive-subnav, #nav-subnav{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "amazon-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "amazon-no footer": "footer, #navFooter,hr{\n  display: none !important;\n}",
+      "amazon-hidden": "#desktop-banner, #desktop-banner-stripe{\n  display: none !important;\n}"
+    },
+    "amazon.de.css": {
+      "amazon-transparency": "html, body, nav, header, #nav-belt, #nav-main, #pageContent, .a-cardui, .image-shoveler, .a-section, #dp, #nav-progressive-subnav, #nav-subnav{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "amazon-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "amazon-no footer": "footer, #navFooter,hr{\n  display: none !important;\n}",
+      "amazon-hidden": "#desktop-banner, #desktop-banner-stripe{\n  display: none !important;\n}"
+    },
+    "outlook.live.com.css": {
+      "outlook-transparency": "html, body, nav, header, #appContainer, #O365_NavHeader, [aria-label=\"App launcher\"], #owaBranding_container > div, #LeftRail, .gU1Tf, [aria-label=\"Hide navigation pane\"], .root-171, .pivot-header-root > button, .QIl4y, .YYA9V, [data-app-section=\"MessageList\"], .bkYAr, #ReadingPaneContainerId, #OwaTitleBar button, #O365_HeaderRightRegion, .IjQyD, .customScrollBar, .X4w2q{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
+    },
+    "kleinanzeigen.de.css": {
+      "kleinanzeigen-transparency": "html, body, nav, header, #site-header-top, .site-base, .ka-site-header, .surface, li, .tilesbox-featured, .tilesbox, .contentbox--vip, .splitlinebox{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "kleinanzeigen-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "kleinanzeigen-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "news.google.com.css": {
+      "news-transparency": "html, body, nav, header, c-wiz, .dm7YTc .isdDAc, .KDoq1, hr, .dSBEqc, .qN9IM, [aria-label=\"Scroll chips forward\"], [aria-label=\"Scroll chips backward\"], .dm7YTc .nTN4Wc, [jsname=\"fjw8sb\"], div.nTN4Wc, .Z2kkN{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\n.dm7YTc .Ly25Ed, .dm7YTc .Z2kkN, .sQBzPb, .ryo59b, .i0Zvib, .ndIcDe, .Ly25Ed, .isdDAc{\n  background-color: transparent !important;\n  border: solid light-dark(#000, #fff) 1px !important;\n}\n\n[role=\"menubar\"]{\n  background-color: light-dark(#fff, #444) !important;\n  div:not([aria-selected=\"true\"]) a {color: light-dark(#000,#fff) !important;}\n  border-radius: 5em;\n  margin-top: 0 !important;\n}",
+      "news-weather fix": "[jsname=\"sYlLx\"]:has([aria-hidden=\"true\"]){\n  opacity: 0 !important;\n}"
+    },
+    "nexusmods.com.css": {
+      "nexusmods-transparency": "html, body, nav, header, ::before, .home-intro, .collections-banner-wrapper, .static .wrap, .modtabs{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
+    },
+    "notebooklm.google.com.css": {
+      "notebooklm-transparency": "html, body, nav, header, welcome-page, notebook{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "notebooklm-no card bg": "section{\n  background-color: transparent !important;\n}\n\nomnibar, .panel-header{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "notebooklm-card borders": "section{\n  background-color: transparent !important;\n  border: solid light-dark(#999,#444) 1px !important; \n}"
+    },
+    "dictionary.cambridge.org.css": {
+      "dictionary-transparency": "html, body, nav, header, #header-hero, .bh, .bpb, .bw{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "dictionary-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "dictionary-no footer": "footer{\n  display: none !important;\n}"
+    },
+    "+duckduckgo.com.css": {
+      "ddg-transparecy": "html, body, .desktop-homepage_root__Ikj1_, .site-wrapper, .metabar:not(.is-stuck), .tileview--grid .metabar--fixed::before, #zci-images, .zci-wrap, #zci-videos{\n  background-color: transparent !important;\n}",
+      "ddg-hidden promo": ".desktop-homepage_heroContent__4HUFA{\n  display: none;\n}",
+      "ddg-no home scroll": ".homepage-cta-section_scrollCta__Wmixn, #features{\n  display: none;\n}",
+      "ddg-centered search": ".is-not-mobile-devicem, .container_root__Ycg94, .header_header__w2BOs, .header_headerContent__LYxh6{\n  height: 100vh !important;\n  margin: auto inherit;\n}",
+      "ddg-no footer": ".footer{\n  display: none !important;\n}",
+      "ddg-transparent header": "#header_wrapper{\n  background-color: transparent !important;\n  position: sticky !important;\n}\n\nnav::before, nav::after, .XvPRmQVeIoCP5lQhICTv.ofDl_1VxUG_EKc3b9E3x::before{\n  display: none !important;\n}"
+    },
+    "start.duckduckgo.com.css": {
+      "transparency": "html, body, nav, header, main{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "no footer": "footer, div.center_root___q8wn:nth-child(2){\n  display: none !important;\n}"
+    },
+    "forbes.com.css": {
+      "forbes-transparency": "html, body, nav, header, .main-content, .happening-now, .fbs-slider__slide::before, .for-you-card, .fbs-slider__slides-wrapper::after{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "forbes-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "forbes-no footer": "footer, hr{\n  display: none !important;\n}"
+    },
+    "vimeo.com.css": {
+      "vimeo-transparency": "html, body, nav, header, [data-vh-view=\"vh-player-view\"], main, .css-1y8xpa1, .css-1w6eqkf{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}",
+      "vimeo-darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "vimeo-no footer": "footer, .css-dzwbth{\n  display: none !important;\n}"
+    },
+    "weibo.com.css": {
+      "transparency": "html, body, nav, header, .Frame_wrap_3g67Q, .LoginTopNav_box_271MN, .woo-panel-main{\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}\n\n.Index_top_3Tw6o{\n  background-color: var(--w-retweet-background) !important;\n}",
+      "darkreader": ":root{\n  --darkreader-background-ffffff: transparent !important;\n}",
+      "no footer": "footer{\n  display: none !important;\n}"
+    },
+    "rumble.com.css": {
+      "rumble-transparency": "html, body, nav, header, main, #main-menu, .homepage-featured, .homepage-featured--left, .homepage-featured--right,  .media-page-related-media-desktop-sidebar, .mediaList-list.related, div.media-description-section, .content, .videoPlayer-Rumble-cls, #vid_v6o3erg > div:nth-child(1){\n  background-color: transparent !important;\n  background: none !important;\n  border: none !important;\n  box-shadow: none !important;\n}"
     }
   }
 }
